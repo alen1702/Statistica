@@ -27,6 +27,9 @@ function caricaDati()
 
 function visualizzaDati()
 {
+  var ncol=0;
+  for (key in dati)
+    ncol++;
   var tit = document.getElementsByTagName("TITLE");
 	var txt = tit[0].childNodes[0];
   var tab = document.getElementById("dati");
@@ -36,7 +39,7 @@ function visualizzaDati()
   var titolo = document.createElement("TR");
   var ele = document.createElement("TH");
   titolo.className="purple";
-  ele.colSpan = dati.length;
+  ele.colSpan = ncol;
   ele.appendChild(txt);    
   titolo.appendChild(ele);
   tabella.appendChild(titolo);

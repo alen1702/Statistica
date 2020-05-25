@@ -5,6 +5,7 @@
 	{"Nome":"Dario",  "Sesso":"M", "Eta":25, "Titolo":1},
 	{"Nome":"Enrica",  "Sesso":"F", "Eta":28, "Titolo":4},
 	{"Nome":"Filippo",  "Sesso":"M", "Eta":24, "Titolo":3},
-	{"Nome":"Gabriella","Sesso":"F","Eta":27,"Titolo":4}
+	{"Nome":"Gabriella","Sesso":"F","Eta":27,"Titolo":4},
+  {"Nome":"Irene", "Sesso":"F","eta":24,"Titolo":4}
 ]
 
