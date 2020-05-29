@@ -1,5 +1,5 @@
 var dati = new Array();
-var titStudio = ["Analfabeta","Licenza elem.","Licenza media","Diploma","Laurea"];
+var titStudio = ["No titoli","Licenza elem.","Licenza media","Diploma","Laurea"];
 
 function caricaDati()
 {
