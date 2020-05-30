@@ -1,3 +1,4 @@
+
 var dati = new Array();
 var titStudio = ["No titoli","Licenza elem.","Licenza media","Diploma","Laurea"];
 
